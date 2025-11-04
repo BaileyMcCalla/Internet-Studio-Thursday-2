@@ -1,0 +1,21 @@
+h1{
+	.fira-sans-bold
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p{
+	.fira-sans-thin 
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+ul,li{
+	.red-hat-display-<uniquifier> 
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
