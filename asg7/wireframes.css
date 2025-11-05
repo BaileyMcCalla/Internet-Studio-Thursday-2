@@ -1,10 +1,19 @@
-h1 {
-    
-.roboto-<uniquifier> {
-  font-family: "Roboto", sans-serif;
+h1,h2,h3 {
+ 
+.noto-serif-<uniquifier> 
+  font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}   
+
+p{
+  .pt-serif-regular 
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+/*This is my css comment. */
