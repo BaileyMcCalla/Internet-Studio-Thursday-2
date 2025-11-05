@@ -1,17 +1,30 @@
-/* albert-sans-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Albert Sans';
+h1,h2,h3 {
+.roboto-<uniquifier> 
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/albert-sans-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-variation-settings:
+    "wdth" 100;
 }
 
-/* alice-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Alice';
+p {
+
+.elms-sans-<uniquifier> 
+  font-family: "Elms Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/alice-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.sidebar {
+  width: 30%;
+  float: right;
+  margin: 10px;
+  background-color: rgb(30,235,199);
+  padding: 10px 20px;
+  border: 1px dotted rgb(252,101,18);
+  border-top: 20px solid rgb(0,0,0);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.5);
 }
