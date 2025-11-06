@@ -4,25 +4,42 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Midterm Assignment</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
+	
 	<style>
-		<.container {
-			display: inline-flex;
-			bacground-color: dodgerblue;
+
+		body{
+			background-color: black;
 		}
 
 		.container div {
-			background-color: #f1f1f1;
-			margin: 10px;
-			padding: 20px;
-			font-size 30px;
+			background-color: deepskyblue;
+			margin: 5px;
+			padding: 2px;
+			font-size: 30px;
+			display: inline-block;
+			border-radius: 10px;
+			float: right;
 		}
+
+		h1,h2,ul {
+			color: rgb(0, 71, 171);
+			 font-family: "Stack Sans Notch", sans-serif;
+		}
+
+		p {
+			font-family: "Nunito", sans-serif;;
+			color: whitesmoke;
+		}
+
 	</style>
 </head>
 	<body>
 
 	<h1>Contact</h1>
-	<div class='main'>
 	<div class='container'>
 	<ul>
 		<div><a href="index.html">Homepage</a></div>
@@ -31,3 +48,22 @@
 		<div><a href="statement.html">Statement</a></div>
 	</ul>
 </div>
+
+<div class="container">
+	<form action="contact.html">
+		<label for="name">Name</label>
+		<input type="text" id="lname" name="lastname">
+	</form>
+	<form action="contact.html">
+		<label for="Phone Number">Phone</label>
+		<input type="text" id="Phone Number">
+	</form>
+	<form action="contact.html">
+		<label for="email">Email</label>
+		<input type="text" id="email">
+	</form>
+	<form action="contact.html">
+		<label for="comment">Comment</label>
+		<input type="text" id="Comment">
+	</form>
+

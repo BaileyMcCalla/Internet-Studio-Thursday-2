@@ -1,10 +1,99 @@
-.main {
-	background-color: dodgerblue;
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article {
+	display: block;
+}
+
+body {
+	line-height: 1.2;
+	border: 3px solid rgb(0, 191, 255);
+	box-shadow: 0 0 15px 5px rgba(0, 191, 255, 0.5);
+	max-width: 900px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+ul {
+	padding-left: 1.4em;
+	
+	font-family: "Stack Sans Notch", sans-serif;
+	font-size: 12px;
+}
+
+h1,h2 {
+	
+.stack-sans-notch-<uniquifier> {
+  font-family: "Stack Sans Notch", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  	font-size: 2.75em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 5px 15px 2px 15px;
+	margin: 0 -15px 20px -15px;
+
+}
+
+
+}
+
+p {
+	.nunito-<uniquifier> 
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  padding-left: 10px;
+  padding-block: 10px;
+  
+}
+
+}
+.container  {
+width: 400px;
+	background: seagreen;
+	border-radius: 6px;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.1);
+	text-align: center;
+	padding: 0 30px 30px;
+	color: seagreen;
+}
+
+.sidebar {
+	width: 30%;
+	float: left;
+	margin: 10px;
+	background-color: deepskyblue;
+	border-radius: 6px;
+}
+
+.sidebar2 {
+	width: 30%;
+	float: right;
+	margin: 10px;
+	background-color: deepskyblue;
+	border-radius: 6px;
+}
+
+nav  {
+	transform: .5s,background-color 1s ease-in 1s;
 	
 }
 
-
-.container {
-margin: 0 auto;
+nav :hover {
+	background-color: blueviolet;
+	
+	;
 }
-
