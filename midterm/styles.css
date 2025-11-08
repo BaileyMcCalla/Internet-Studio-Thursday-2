@@ -46,7 +46,7 @@ h1,h2 {
 
 }
 
-p {
+p, input, textarea, table {
 	.nunito-<uniquifier> 
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
@@ -62,7 +62,7 @@ p {
 width: 400px;
 	background: seagreen;
 	border-radius: 6px;
-	position: absolute;
+	position: bottom;
 	top: 0%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0.1);
@@ -87,13 +87,30 @@ width: 400px;
 	border-radius: 6px;
 }
 
-nav  {
-	transform: .5s,background-color 1s ease-in 1s;
-	
+nav {
+	margin-center: 200px;
 }
 
-nav :hover {
-	background-color: blueviolet;
-	
-	;
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: blue;
+	padding: 10px 40px;
+	background: 10px 20px;
+	background: ghostwhite;
+	border-radius: 5px;
+	border: 1px solid deepskyblue;
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+	0px -1px 1px rgba(000,000,000,0.2)
+	0px 1px 0px rgba(255,255,255,0.3);
+}
+
+nav a {
+	transition: transform .5s, background-color 1s ease-in .5s;
+}
+
+nav a:hover {
+	background-color: midnightblue;
+	transform: scale(1.3);
 }
